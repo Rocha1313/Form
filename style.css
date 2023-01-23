@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+}
+
+h1{
+    margin-bottom: 40px;
+    color: #fdfd96;
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://media.istockphoto.com/id/1409817233/vector/seamless-pattern-capybaras-in-the-water-vector-graphics.jpg?s=612x612&w=0&k=20&c=BuLJOpi3CBpRzTCkuEKd3kHJYAg-VKje-bP20cm7Yww=");
+}
+
+form {
+  width: 510px;
+  height: 210px;
+  padding: 40px;
+  box-shadow: 10px 10px khaki;
+  background-color: #fdfd96;
+}
+
+div{
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    background-color: orange;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 11px;
+    color: red;
+    opacity: 50%;
+}
+
+#buttonStyle{
+    display: flex;
+    justify-content: center;
+}
+
+#hobbies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nameBox{
+    outline: none;
+    border: 0;
+    background-color: #fdfd96;
+    border-bottom: 1px solid black;
+    width: 86.4%;
+}
+
+.number{
+    outline: none;
+    border: 0;
+    background-color: #fdfd96;
+    border-bottom: 1px solid black;
+    width: 25%;
+}
+
+input[type=email]{
+    outline: none;
+    border: 0;
+    background-color: #fdfd96;
+    border-bottom: 1px solid black;
+    width: 86.5%;
+}
+
+input[type=password]{
+    outline: none;
+    border: 0;
+    background-color: #fdfd96;
+    border-bottom: 1px solid black;
+    width: 82%;
+}
+
+.disabled{
+    color: gray;
+}
+
+.container {
+  display: block;
+  align-items: center;
+  position: relative;
+  margin-top: 6px;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fdfd96;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #fdfd96;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 3px;
+  height: 8px;
+  border: solid green;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+

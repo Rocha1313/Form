@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <h1>Formulario de Hobbys</h1>
+    <form>
+        <div>
+            <label>Name: </label>
+            <input id="nameBox">
+        </div>
+        <div>
+            <label>Cell Phone: </label>
+            <input class="number" placeholder="+351" maxlength="9">
+        </div>
+        <div>
+            <label>Sexo: </label>
+            <input type="radio" name="sexo">
+            <label>Feminino</label>
+            <input type="radio" name="sexo">
+            <label>Masculino</label>
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="email">
+        </div>
+        <div>
+            <label>Password: </label>
+            <input type="password" placeholder="Minimum eight characters, at least one letter and one number:">
+        </div>
+        <div id="hobbies">
+            <label>Hobbies: </label>
+
+            <label class="container">Music
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Cinema
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Dance
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container disabled">Photography
+                <input disabled type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div>
+            <label>Age:   </label>
+            <label id="ageNumber">18</label>
+            <input id="age" type="range" min="18" max="99" value="18">
+        </div>
+        <div id="buttonStyle">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
