@@ -2,18 +2,18 @@
   margin: 0;
 }
 
-h1{
-    margin-bottom: 40px;
-    color: #fdfd96;
+h1 {
+  margin-bottom: 40px;
+  color: #fdfd96;
 }
 
-body{
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url("https://media.istockphoto.com/id/1409817233/vector/seamless-pattern-capybaras-in-the-water-vector-graphics.jpg?s=612x612&w=0&k=20&c=BuLJOpi3CBpRzTCkuEKd3kHJYAg-VKje-bP20cm7Yww=");
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://media.istockphoto.com/id/1409817233/vector/seamless-pattern-capybaras-in-the-water-vector-graphics.jpg?s=612x612&w=0&k=20&c=BuLJOpi3CBpRzTCkuEKd3kHJYAg-VKje-bP20cm7Yww=");
 }
 
 form {
@@ -24,31 +24,39 @@ form {
   background-color: #fdfd96;
 }
 
-div{
-    margin-bottom: 7px;
-    display: flex;
-    align-items: center;
+div {
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
 }
 
-button{
-    width: 70px;
-    height: 30px;
-    background-color: orange;
-    border: 1px solid red;
-    border-radius: 3px;
-    font-size: 11px;
-    color: red;
-    opacity: 50%;
+button {
+  width: 70px;
+  height: 30px;
+  background-color: orange;
+  border: 1px solid red;
+  border-radius: 3px;
+  font-size: 11px;
+  color: red;
+  opacity: 50%;
 }
 
-#disabledBox{
-    border: 1px solid gray;
-    cursor: not-allowed;
+p{
+  margin-top: 2px;
 }
 
-#buttonStyle{
-    display: flex;
-    justify-content: center;
+#disabledLabel {
+  cursor: not-allowed;
+}
+
+#disabledBox {
+  border: 1px solid gray;
+  cursor: not-allowed;
+}
+
+#buttonStyle {
+  display: flex;
+  justify-content: center;
 }
 
 #hobbies {
@@ -57,40 +65,44 @@ button{
   align-items: center;
 }
 
-#nameBox{
-    outline: none;
-    border: 0;
-    background-color: #fdfd96;
-    border-bottom: 1px solid black;
-    width: 86.4%;
+#nameBox {
+  outline: none;
+  border: 0;
+  background-color: #fdfd96;
+  border-bottom: 1px solid black;
+  width: 86.4%;
 }
 
-.number{
-    outline: none;
-    border: 0;
-    background-color: #fdfd96;
-    border-bottom: 1px solid black;
-    width: 25%;
+.spacement {
+  margin-right: 10px;
 }
 
-input[type=email]{
-    outline: none;
-    border: 0;
-    background-color: #fdfd96;
-    border-bottom: 1px solid black;
-    width: 86.5%;
+.number {
+  outline: none;
+  border: 0;
+  background-color: #fdfd96;
+  border-bottom: 1px solid black;
+  width: 25%;
 }
 
-input[type=password]{
-    outline: none;
-    border: 0;
-    background-color: #fdfd96;
-    border-bottom: 1px solid black;
-    width: 82%;
+input[type="email"] {
+  outline: none;
+  border: 0;
+  background-color: #fdfd96;
+  border-bottom: 1px solid black;
+  width: 86.5%;
 }
 
-.disabled{
-    color: gray;
+input[type="password"] {
+  outline: none;
+  border: 0;
+  background-color: #fdfd96;
+  border-bottom: 1px solid black;
+  width: 82%;
+}
+
+.disabled {
+  color: gray;
 }
 
 .container {
@@ -106,6 +118,8 @@ input[type=password]{
 .container input {
   position: absolute;
   opacity: 0;
+  width: 0;
+  height: 0;
   cursor: pointer;
 }
 
@@ -145,4 +159,3 @@ input[type=password]{
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-

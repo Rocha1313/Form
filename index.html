@@ -14,51 +14,51 @@
     <h1>Formulario de Hobbys</h1>
     <form>
         <div>
-            <label>Name: </label>
+            <label class="spacement">Name:</label>
             <input required id="nameBox">
         </div>
         <div>
-            <label>Cell Phone: </label>
+            <label class="spacement">Cell Phone:</label>
             <input required class="number" placeholder="+351" maxlength="9">
         </div>
         <div>
-            <label>Sexo: </label>
+            <label class="spacement">Sexo:</label>
             <input required type="radio" name="sexo">
-            <label>Feminino</label>
+            <label class="spacement">Feminino</label>
             <input required type="radio" name="sexo">
             <label>Masculino</label>
         </div>
         <div>
-            <label>Email: </label>
+            <label class="spacement">Email:</label>
             <input required type="email">
         </div>
         <div>
-            <label>Password: </label>
+            <label class="spacement">Password:</label>
             <input required type="password" placeholder="Minimum eight characters, at least one letter and one number:">
         </div>
         <div id="hobbies">
-            <label>Hobbies: </label>
+            <label>Hobbies:</label>
 
-            <label class="container">Music
+            <label class="container"><p>Music</p>
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
 
-            <label class="container">Cinema
+            <label class="container"><p>Cinema</p>
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
-            <label class="container">Dance
+            <label class="container"><p>Dance</p>
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
-            <label class="container disabled">Photography
+            <label id="disabledLabel" class="container disabled"><p>Photography</p>
                 <input disabled type="checkbox">
                 <span id="disabledBox" class="checkmark"></span>
             </label>
         </div>
         <div>
-            <label>Age:   </label>
+            <label class="spacement">Age:</label>
             <label id="ageNumber">18</label>
             <input id="age" type="range" min="18" max="99" value="18">
         </div>
