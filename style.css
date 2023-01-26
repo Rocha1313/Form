@@ -33,12 +33,11 @@ div {
 button {
   width: 70px;
   height: 30px;
-  background-color: orange;
+  background-color: rgb(255, 197, 89);
   border: 1px solid red;
   border-radius: 3px;
   font-size: 11px;
-  color: red;
-  opacity: 50%;
+  color: rgb(255, 33, 33);
 }
 
 p{
