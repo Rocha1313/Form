@@ -15,26 +15,26 @@
     <form>
         <div>
             <label>Name: </label>
-            <input id="nameBox">
+            <input required id="nameBox">
         </div>
         <div>
             <label>Cell Phone: </label>
-            <input class="number" placeholder="+351" maxlength="9">
+            <input required class="number" placeholder="+351" maxlength="9">
         </div>
         <div>
             <label>Sexo: </label>
-            <input type="radio" name="sexo">
+            <input required type="radio" name="sexo">
             <label>Feminino</label>
-            <input type="radio" name="sexo">
+            <input required type="radio" name="sexo">
             <label>Masculino</label>
         </div>
         <div>
             <label>Email: </label>
-            <input type="email">
+            <input required type="email">
         </div>
         <div>
             <label>Password: </label>
-            <input type="password" placeholder="Minimum eight characters, at least one letter and one number:">
+            <input required type="password" placeholder="Minimum eight characters, at least one letter and one number:">
         </div>
         <div id="hobbies">
             <label>Hobbies: </label>
@@ -54,7 +54,7 @@
             </label>
             <label class="container disabled">Photography
                 <input disabled type="checkbox">
-                <span class="checkmark"></span>
+                <span id="disabledBox" class="checkmark"></span>
             </label>
         </div>
         <div>

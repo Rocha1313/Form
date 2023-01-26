@@ -41,6 +41,11 @@ button{
     opacity: 50%;
 }
 
+#disabledBox{
+    border: 1px solid gray;
+    cursor: not-allowed;
+}
+
 #buttonStyle{
     display: flex;
     justify-content: center;
